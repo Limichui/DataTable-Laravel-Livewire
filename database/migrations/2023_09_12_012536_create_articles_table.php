@@ -23,6 +23,7 @@ return new class extends Migration
             
             $table->boolean('is_published')->default(false);
             
+            $table->integer('sort');
 
             $table->timestamps();
         });
